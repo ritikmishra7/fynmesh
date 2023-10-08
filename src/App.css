@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.heroBanner {
+  background-image: url('./assets//herobanner.png');
+  background-position: center center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  box-shadow: none;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: 100% 100%;
+}
+
+.transitionBg {
+  background: linear-gradient(to bottom, rgba(12, 207, 247), rgba(12, 93, 247));
+}
+
+.transitionBg2 {
+  background: linear-gradient(to bottom, rgba(180, 252, 232, 0.6), rgb(173, 198, 244, 0.6));
+  backdrop-filter: blur(8px);
+}
+
+.transitionBg2:hover {
+  background: linear-gradient(to bottom, rgba(180, 252, 232, 0.7), rgb(173, 198, 244, 0.7));
+}
+
+.bgWrapper {
+  background-image: url('./assets/herobanner.png');
+  background-position: center center;
+  box-shadow: none;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: cover;
+  overflow-x: hidden;
+  padding-bottom: 150px;
+}
+
+.bgWrapper2 {
+  background-image: url('./assets/hero.png');
+  background-size: cover;
+  right: -160%;
+  top: -12%;
+  z-index: 0;
+}
+
+.featureWrapper {
+  background-image: url('./assets/featurebanner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.swirl-container {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+
+.problemWrapper {
+  background-image: url('./assets/gradient.png');
+  background-position: center center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  box-shadow: none;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: 100% 100%;
+}
+
+.solutionWrapper {
+  background-image: url('./assets/grid.png');
+  background-position: center center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  box-shadow: none;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: 100% 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.problemOuterWrapper {
+  background-image: url('./assets/problembg.png');
+  background-position: center center;
+  box-sizing: border-box;
+  box-shadow: none;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: 100% 100%;
+  width: 3840px;
+  left: -1408px;
+  height: 800px;
+}
+
+.targetWrapper {
+  background-image: url('./assets/targetbg.png');
+  background-position: center center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  box-shadow: none;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: 100% 100%;
+  z-index: -11;
+  overflow-x: hidden;
+}
+
+.singleTargetWrapper {
+  background-image: url('./assets/targetborder.png');
+  background-position: center center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  box-shadow: none;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: 100% 100%;
+}
+
+.behindTarget {
+  background-image: url('./assets/belowtargetbanner.png');
+  background-position: center center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  box-shadow: none;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: 100% 100%;
+}
+
+.newtabWrapper {
+  background-image: url('./assets/newtab.webp');
+}
+
+.offerWrapper {
+  background-image: url('./assets/offeringbg.png');
+  background-position: center center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  box-shadow: none;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: 100% 100%;
+}
+
+.singleofferWrapper {
+  background-image: url('./assets/offeringcardbg.png');
+  background-position: center center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  box-shadow: none;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: 100% 100%;
+}
+
+.footercardWrapper {
+  background-image: url('./assets/footercard.png');
+  background-position: center center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  box-shadow: none;
+  opacity: 1;
+  border-radius: 0px;
+  background-size: 100% 100%;
+}
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    display: hidden;
+
+  }
+
+  5% {
+    display: flex;
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
