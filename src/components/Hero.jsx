@@ -9,8 +9,8 @@ function Hero() {
     return (
         <div className='flex w-full px-16 gap-10 py-24 justify-start'>
             <div className='flex flex-col w-2/4 gap-10'>
-                <h1 className='text-[46px] text-[#172025] font-bold'>Decentralized Financial Signal Hosting Network</h1>
-                <p className='text-[23px] text-[#244141] w-80 font-normal'>For Data Engineers, Traders and Everyone in between</p>
+                <h1 className='text-[46px] text-[#172025] font-bold'>Distributed Economic Indicator Hosting Network</h1>
+                <p className='text-[23px] text-[#244141] w-80 font-normal'>For Data Engineers, Traders, and All Professionals</p>
                 <button className='w-fit py-4 px-10 text-lg text-[#F6F8FB] rounded-lg font-semibold hover:opacity-90 transitionBg'>
                     Join the waitlist
                 </button>

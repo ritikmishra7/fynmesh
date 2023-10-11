@@ -58,10 +58,10 @@ function Subscribe() {
             <div className='targetWrapper px-2 py-10 flex items-center justify-start w-[3840px] h-[600px]'>
                 <div className='footercardWrapper px-20 rounded-2xl flex items-center w-[1400px] h-[500px] gap-5 ml-[60px]'>
                     <div className='w-[50%]'>
-                        <p className='text-5xl text-[#2B0A6C] font-bold'>Web3 is built around the promise of trust</p>
+                        <p className='text-5xl text-[#2B0A6C] font-bold'>Web3 is founded upon the principle of trust</p>
                     </div>
                     <div className='flex flex-col gap-8'>
-                        <p className='text-2xl text-[#2B0A6C] font-medium max-w-[354px]'>Check out our Database here, by signing up for test access</p>
+                        <p className='text-2xl text-[#2B0A6C] font-medium max-w-[354px]'>Explore our database by registering for test access here.</p>
                         <div className='flex flex-col gap-8 w-[460px]'>
                             <input type="text" placeholder='Name' className={`p-4 rounded-lg outline-none ${nameError && 'border-red-500 border-[2px] border-solid'}`} value={name} onChange={(e) => setName(e.target.value)} />
                             <input type="email" placeholder='Email' className={`p-4 rounded-lg outline-none ${emailError && 'border-red-500 border-[2px] border-solid'}`} value={email} onChange={(e) => setEmail(e.target.value)} />

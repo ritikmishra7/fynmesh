@@ -6,7 +6,7 @@ function Features() {
         [
             {
                 texts: ['Find', 'Share', 'Compute'],
-                fixed: 'Datasets, collaborators & missing infos'
+                fixed: 'Datasets, Collaborators, and Omitted Information'
             },
             {
                 texts: ['Innovate', 'Accelerate', 'Trade'],

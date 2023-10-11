@@ -11,31 +11,33 @@ function Target() {
 
     const data = [
         {
-            title: 'Data and computing resource aftermarket',
-            description: 'Sell your data and excess computing resources on our marketplace',
+            title: 'Data & Computing Power Resale Market',
+            description: 'Market your data and spare computing power on our trading platform',
             image: target1
         },
         {
-            title: 'Data and Algorithm testing',
-            description: 'Test your data, combine it with other datasets and identify correlations',
+            title: 'Data and Algorithmic Analysis',
+            description: 'Analyze your data, merge with other sets, and find correlations',
             image: target2
         },
         {
-            title: 'Private and anonymous collaboration',
-            description: 'Find, match with and collaborate with other investors in a trustless ecosystem',
+            title: 'Secure & Anonymous Teamwork',
+            description: 'Locate, pair, and work with other investors in a trust-free network',
             image: target3
         },
         {
-            title: 'Market making',
-            description: 'Apply market trends, order book data and prices on various platforms into your market making algorithms',
+            title: 'Engaging in Market Making',
+            description: 'Utilize market trends, order data, and prices across platforms in your algorithms',
             image: target4
         },
         {
-            title: 'Alpha generation',
-            description: 'Find profitable trading indicators & test strategies at a fraction of the cost, and workload',
+            title: 'Alpha Creation Strategies',
+            description: 'Discover profitable trading signals & test plans at reduced cost and effort',
             image: target5
         },
-    ]
+    ];
+
+
 
     return (
         <div className='overflow-x-hidden' id='target'>
@@ -43,8 +45,8 @@ function Target() {
                 <div className='overflow-x-hidden'>
                     <div className='px-10 pt-32 overflow-x-hidden'>
                         <div className='flex items-center justify-around mb-20 overflow-x-hidden w-[90vw]'>
-                            <p className='text-5xl text-[#2B0A6C] font-bold w-[50%]'>For data scientists, quant traders and data providers</p>
-                            <p className='text-2xl text-[#2B0A6C] w-[40%]'>Monetize existing compute and storage resources and avoid using centralized clouds. Buy and sell datasets on our marketplace and sign up for our experimental AI tools.</p>
+                            <p className='text-5xl text-[#2B0A6C] font-bold w-[50%]'>For data specialists, quant traders, and data vendors</p>
+                            <p className='text-2xl text-[#2B0A6C] w-[40%]'>Capitalize on existing compute and storage resources while circumventing the use of centralized clouds.Buy and sell datasets on our marketplace and register for our experimental AI tools.</p>
                         </div>
                         <div className='flex flex-wrap gap-20 items-center justify-center overflow-x-hidden w-[90vw]'>
                             {

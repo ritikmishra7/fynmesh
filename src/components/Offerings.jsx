@@ -9,26 +9,27 @@ import offer4 from '../assets/offer4.webp'
 function Offerings() {
     const data = [
         {
-            title: 'Become a partner',
-            description: 'Provide data you have and query what you need',
+            title: 'Join as a Partner',
+            description: 'Supply your data and inquire what you require',
             image: offer1
         },
         {
-            title: 'Test our data and services',
-            description: 'Find new valuable datasets or build with us',
+            title: 'Explore Our Data & Services',
+            description: 'Discover valuable datasets or collaborate with us',
             image: offer2
         },
         {
-            title: 'Invest',
-            description: 'Get infos about Pre-sales, pricing, the ICO or roadmap',
+            title: 'Investment Opportunities',
+            description: 'Learn about Pre-sales, pricing, ICO, and our roadmap',
             image: offer3
         },
         {
-            title: 'Contribute',
-            description: 'Monetize your crypto data, algorithms or signals',
+            title: 'Make a Contribution',
+            description: 'Earn from your crypto data, algorithms, or signals',
             image: offer4
         },
-    ]
+    ];
+
     return (
         <div className='overflow-x-hidden bg-[rgba(230,250,255,0.7)]'>
             <div className='offerWrapper flex flex-col items-start py-20 gap-20 w-[3840px]' id='offerings'>

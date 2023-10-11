@@ -4,29 +4,29 @@ import SingleProblem from './SingleProblem'
 function Problems() {
     const data = [
         {
-            problem: 'Data remains in silos',
-            solution: 'Monetize',
+            problem: 'Data stays isolated in storage units',
+            solution: 'Generate Revenue',
             link: 'Data with Fynmesh',
         },
         {
-            problem: 'It’s hard to validate data',
-            solution: 'Validate',
+            problem: 'Verifying data poses challenges',
+            solution: 'Confirm',
             link: 'Data with Fynmesh',
         },
         {
-            problem: 'High computing workload volatility',
-            solution: 'Share resources',
+            problem: 'Elevated variability in computational workload',
+            solution: 'Distribute resources',
             link: 'with Fynmesh',
         },
         {
-            problem: 'Data is extremely expensive',
+            problem: 'Data incurs a significant cost.',
             solution: 'Save',
             link: 'Money with Fynmesh',
         },
     ]
     return (
         <div className='mt-36 relative overflow-hidden'>
-            <p className='px-14 text-[#172025] font-bold text-center text-[47px] mb-10 pb-1'>We know your <span className='text-[#2B0A6C]'>problems</span> and offer the reasonable <span className='text-[#2C71FF]'>solution</span></p>
+            <p className='px-14 text-[#172025] font-bold text-center text-[47px] mb-10 pb-1'>We understand your <span className='text-[#2B0A6C]'>challenges</span> and provide <span className='text-[#2C71FF]'>solutions</span></p>
             <div className='px-14'>
                 {
                     data.map((item, index) => (
